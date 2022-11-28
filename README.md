@@ -1,16 +1,11 @@
 # push-apis
 
-Sends push-notifications via Google/FCM, Huawei/Push-Kit, Apple
+• Sends push-notifications via Google/FCM, Huawei/Push-Kit, Apple
 
-Proxy friendly. HTTP2-over-HTTP1.1-proxy tunneling (as Apple APIs supports HTTP/2 only)
+• Proxy friendly. HTTP2-over-HTTP1.1-proxy tunneling (as Apple APIs supports HTTP/2 only)
 
-No dependencies on vendor libs
+• No dependencies on vendor libs
 
-
-## Features
-- The implementation based on REST APIs only, no vendor libs.
-
-- Supports proxy (HTTP/2 enabled for Apple APIs only)
 
 ## Install
 ```npm install push-apis```
