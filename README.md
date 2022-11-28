@@ -17,7 +17,7 @@ No dependencies on vendor libs
 
 ## Usage
 
-## Google Legacy FCM API
+### Google Legacy FCM API
 ```
 const serverKey = 'AAAA...'
 const payload = { notification: { title: "title", body: "body" } }
