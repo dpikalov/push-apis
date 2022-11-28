@@ -1,4 +1,7 @@
 # push-apis
+[![npm](https://flat.badgen.net/npm/v/push-apis)](https://npmjs.com/package/push-apis)
+[![npm license](https://flat.badgen.net/npm/license/push-apis)](https://npmjs.com/package/push-apis)
+[![npm downloads](https://flat.badgen.net/npm/dm/push-apis)](https://npmjs.com/package/push-apis)
 
 • Sends push-notifications via Google/FCM, Huawei/Push-Kit, Apple
 
