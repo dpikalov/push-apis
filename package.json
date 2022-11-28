@@ -1,0 +1,19 @@
+{
+  "name": "push-apis",
+  "version": "0.9.0",
+  "description": "Sends push-notifications via Google/FCM, Huawei/Push-Kit, Apple. Proxy friendly. No deps on vendor libs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "dpikalov",
+  "license": "MIT",
+  "dependencies": {
+    "cross-fetch": "^3.1.5",
+    "https-proxy-agent": "^5.0.1",
+    "jws": "^4.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
