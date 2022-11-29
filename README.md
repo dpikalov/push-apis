@@ -3,11 +3,13 @@
 [![npm license](https://flat.badgen.net/npm/license/push-apis)](https://npmjs.com/package/push-apis)
 [![npm downloads](https://flat.badgen.net/npm/dm/push-apis)](https://npmjs.com/package/push-apis)
 
-• Sends push-notifications via Google/FCM, Huawei/Push-Kit, Apple
+- Sends push-notifications via **Google/FCM**, **Huawei/Push-Kit** and **Apple** gateways
 
-• Proxy friendly. HTTP2-over-HTTP1.1-proxy tunneling (as Apple APIs supports HTTP/2 only)
+- Proxy friendly (set ```http_proxy``` env variable, if needed)
 
-• No dependencies on vendor libs
+- Tunneling HTTP/2 over HTTP/1.1 proxy (Apple APIs supports HTTP/2 only)
+
+- No dependencies on vendor libs
 
 
 ## Install
