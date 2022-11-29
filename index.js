@@ -19,7 +19,7 @@ const sendMessageFcmLegacy = async (serverKey, to, payload) => {
   const json = await post(url, headers, {
     to, ...payload, // direct_boot_ok: true,
   })
-  return (json.failure === 0) ? json: Promise.reject(json)
+  return (json.data && json.data.failure === 0) ? json: Promise.reject(json)
 }
 
 /**
