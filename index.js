@@ -63,12 +63,12 @@ const sendMessageHuawei = async (appId, appSecret, token, payload) => {
 
 /**
  * Apple API
- * @param {Object} credentials - { apnsTopic, teamId, keyId, encKey }
+ * @param {Object} credentials - { server, apnsTopic, teamId, keyId, encKey }
  * @param {Object} payload - see Apple API docs
  */
 const sendMessageApple = async (credentials, token, payload ) => {
-  const url = `https://api.push.apple.com/3/device/${token}`
-  const { apnsTopic, teamId, keyId, encKey } = credentials
+  const { server, apnsTopic, teamId, keyId, encKey } = credentials
+  const url = `https://${server || 'api.push.apple.com'}/3/device/${token}`
 
   const headers = {
     'apns-push-type': 'background',

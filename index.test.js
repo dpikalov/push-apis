@@ -27,6 +27,7 @@ describe('push-api', () => {
 
   test('apple-api is reachable, returns auth error', async () => {
     const credentials = {
+      "server": "api.sandbox.push.apple.com",
       "apnsTopic": "fake.topic.for.test",
       "teamId": "1111111111",
       "keyId" : "2222222222",
