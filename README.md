@@ -51,6 +51,7 @@ await pushApi.sendMessageHuawei( appId, appSecret, token, payload )
 ### Apple Push API
 ```
 const credentials = {
+  server: 'api.sandbox.push.apple.com', // optional
   apnsTopic: 'com.your.app.here'
   teamId: 'H4xxxxxxxx',
   keyId : '55xxxxxxxx',
