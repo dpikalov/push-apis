@@ -1,6 +1,6 @@
 {
   "name": "push-apis",
-  "version": "0.9.7",
+  "version": "0.9.8",
   "description": "Sends push-notifications via Google/FCM • Huawei/Push-Kit • Apple • Proxy friendly • No deps on vendor libs.",
   "main": "index.js",
   "scripts": {
@@ -14,10 +14,21 @@
   },
   "keywords": [
     "apple",
-    "google", "fcm", "firebase",
-    "huawei", "hms", "push kit",
-    "push", "notification",
-    "http2", "proxy", "legacy", "v1", "rest", "server", "backend"
+    "google",
+    "fcm",
+    "firebase",
+    "huawei",
+    "hms",
+    "push kit",
+    "push",
+    "notification",
+    "http2",
+    "proxy",
+    "legacy",
+    "v1",
+    "rest",
+    "server",
+    "backend"
   ],
   "dependencies": {
     "cross-fetch": "^3.1.5",
