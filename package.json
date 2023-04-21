@@ -1,6 +1,6 @@
 {
   "name": "push-apis",
-  "version": "0.9.8",
+  "version": "0.9.9",
   "description": "Sends push-notifications via Google/FCM • Huawei/Push-Kit • Apple • Proxy friendly • No deps on vendor libs.",
   "main": "index.js",
   "scripts": {
